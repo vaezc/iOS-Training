@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055456A1209315A900271D5D /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = 05545698209315A800271D5D /* Rating.m */; };
+		055456A2209315A900271D5D /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 05545699209315A800271D5D /* Subject.m */; };
+		055456A3209315A900271D5D /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0554569D209315A900271D5D /* Avatar.m */; };
+		055456A4209315A900271D5D /* Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0554569F209315A900271D5D /* Cast.m */; };
+		055456A5209315A900271D5D /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 055456A0209315A900271D5D /* Movie.m */; };
+		05E499612089813F006C8BD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E499602089813F006C8BD0 /* AppDelegate.m */; };
+		05E499642089813F006C8BD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E499632089813F006C8BD0 /* ViewController.m */; };
+		05E499672089813F006C8BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E499652089813F006C8BD0 /* Main.storyboard */; };
+		05E4996920898140006C8BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E4996820898140006C8BD0 /* Assets.xcassets */; };
+		05E4996C20898140006C8BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E4996A20898140006C8BD0 /* LaunchScreen.storyboard */; };
+		05E4996F20898140006C8BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E4996E20898140006C8BD0 /* main.m */; };
+		05E4997720898F03006C8BD0 /* NetWorkMannager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E4997620898F03006C8BD0 /* NetWorkMannager.m */; };
+		E2D627A25F306D43C3F8261A /* libPods-CZAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D284899F471666C6462D593 /* libPods-CZAFNetworking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05545697209315A800271D5D /* Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
+		05545698209315A800271D5D /* Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
+		05545699209315A800271D5D /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		0554569A209315A800271D5D /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		0554569B209315A800271D5D /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		0554569C209315A800271D5D /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		0554569D209315A900271D5D /* Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
+		0554569E209315A900271D5D /* Cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cast.h; sourceTree = "<group>"; };
+		0554569F209315A900271D5D /* Cast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cast.m; sourceTree = "<group>"; };
+		055456A0209315A900271D5D /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		05E4995C2089813F006C8BD0 /* CZAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E4995F2089813F006C8BD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05E499602089813F006C8BD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05E499622089813F006C8BD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05E499632089813F006C8BD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05E499662089813F006C8BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05E4996820898140006C8BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05E4996B20898140006C8BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05E4996D20898140006C8BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E4996E20898140006C8BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05E4997520898F03006C8BD0 /* NetWorkMannager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkMannager.h; sourceTree = "<group>"; };
+		05E4997620898F03006C8BD0 /* NetWorkMannager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkMannager.m; sourceTree = "<group>"; };
+		4D284899F471666C6462D593 /* libPods-CZAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZAFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88397119048CEE757C813CCC /* Pods-CZAFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZAFNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZAFNetworking/Pods-CZAFNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		BF011D2BFBB680F4C7A34C54 /* Pods-CZAFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZAFNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZAFNetworking/Pods-CZAFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05E499592089813F006C8BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D627A25F306D43C3F8261A /* libPods-CZAFNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D052996CB3FD327EF31D69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF011D2BFBB680F4C7A34C54 /* Pods-CZAFNetworking.debug.xcconfig */,
+				88397119048CEE757C813CCC /* Pods-CZAFNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		055456962093159F00271D5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0554569C209315A800271D5D /* Avatar.h */,
+				0554569D209315A900271D5D /* Avatar.m */,
+				0554569E209315A900271D5D /* Cast.h */,
+				0554569F209315A900271D5D /* Cast.m */,
+				0554569A209315A800271D5D /* Movie.h */,
+				055456A0209315A900271D5D /* Movie.m */,
+				05545697209315A800271D5D /* Rating.h */,
+				05545698209315A800271D5D /* Rating.m */,
+				0554569B209315A800271D5D /* Subject.h */,
+				05545699209315A800271D5D /* Subject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05E499532089813F006C8BD0 = {
+			isa = PBXGroup;
+			children = (
+				05E4995E2089813F006C8BD0 /* CZAFNetworking */,
+				05E4995D2089813F006C8BD0 /* Products */,
+				02D052996CB3FD327EF31D69 /* Pods */,
+				CFAFD11EC8C06389C9063BB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05E4995D2089813F006C8BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05E4995C2089813F006C8BD0 /* CZAFNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05E4995E2089813F006C8BD0 /* CZAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				055456962093159F00271D5D /* Model */,
+				05E4995F2089813F006C8BD0 /* AppDelegate.h */,
+				05E499602089813F006C8BD0 /* AppDelegate.m */,
+				05E499622089813F006C8BD0 /* ViewController.h */,
+				05E499632089813F006C8BD0 /* ViewController.m */,
+				05E499652089813F006C8BD0 /* Main.storyboard */,
+				05E4996820898140006C8BD0 /* Assets.xcassets */,
+				05E4996A20898140006C8BD0 /* LaunchScreen.storyboard */,
+				05E4996D20898140006C8BD0 /* Info.plist */,
+				05E4996E20898140006C8BD0 /* main.m */,
+				05E4997520898F03006C8BD0 /* NetWorkMannager.h */,
+				05E4997620898F03006C8BD0 /* NetWorkMannager.m */,
+			);
+			path = CZAFNetworking;
+			sourceTree = "<group>";
+		};
+		CFAFD11EC8C06389C9063BB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D284899F471666C6462D593 /* libPods-CZAFNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05E4995B2089813F006C8BD0 /* CZAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E4997220898140006C8BD0 /* Build configuration list for PBXNativeTarget "CZAFNetworking" */;
+			buildPhases = (
+				C2D1DE34D78694E5F44B58E8 /* [CP] Check Pods Manifest.lock */,
+				05E499582089813F006C8BD0 /* Sources */,
+				05E499592089813F006C8BD0 /* Frameworks */,
+				05E4995A2089813F006C8BD0 /* Resources */,
+				4A6FE082B9B6EB530A6E4D34 /* [CP] Embed Pods Frameworks */,
+				EDC4262B6CB325E6AFE88514 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZAFNetworking;
+			productName = CZAFNetworking;
+			productReference = 05E4995C2089813F006C8BD0 /* CZAFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05E499542089813F006C8BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "周畅";
+				TargetAttributes = {
+					05E4995B2089813F006C8BD0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 05E499572089813F006C8BD0 /* Build configuration list for PBXProject "CZAFNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05E499532089813F006C8BD0;
+			productRefGroup = 05E4995D2089813F006C8BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05E4995B2089813F006C8BD0 /* CZAFNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05E4995A2089813F006C8BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E4996C20898140006C8BD0 /* LaunchScreen.storyboard in Resources */,
+				05E4996920898140006C8BD0 /* Assets.xcassets in Resources */,
+				05E499672089813F006C8BD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A6FE082B9B6EB530A6E4D34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZAFNetworking/Pods-CZAFNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D1DE34D78694E5F44B58E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CZAFNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC4262B6CB325E6AFE88514 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CZAFNetworking/Pods-CZAFNetworking-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZAFNetworking/Pods-CZAFNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05E499582089813F006C8BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055456A1209315A900271D5D /* Rating.m in Sources */,
+				055456A3209315A900271D5D /* Avatar.m in Sources */,
+				05E499642089813F006C8BD0 /* ViewController.m in Sources */,
+				055456A2209315A900271D5D /* Subject.m in Sources */,
+				055456A4209315A900271D5D /* Cast.m in Sources */,
+				05E4996F20898140006C8BD0 /* main.m in Sources */,
+				055456A5209315A900271D5D /* Movie.m in Sources */,
+				05E499612089813F006C8BD0 /* AppDelegate.m in Sources */,
+				05E4997720898F03006C8BD0 /* NetWorkMannager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05E499652089813F006C8BD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E499662089813F006C8BD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05E4996A20898140006C8BD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E4996B20898140006C8BD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05E4997020898140006C8BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05E4997120898140006C8BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05E4997320898140006C8BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF011D2BFBB680F4C7A34C54 /* Pods-CZAFNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPDFD48TLB;
+				INFOPLIST_FILE = CZAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vae.CZAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05E4997420898140006C8BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88397119048CEE757C813CCC /* Pods-CZAFNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPDFD48TLB;
+				INFOPLIST_FILE = CZAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vae.CZAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05E499572089813F006C8BD0 /* Build configuration list for PBXProject "CZAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E4997020898140006C8BD0 /* Debug */,
+				05E4997120898140006C8BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E4997220898140006C8BD0 /* Build configuration list for PBXNativeTarget "CZAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E4997320898140006C8BD0 /* Debug */,
+				05E4997420898140006C8BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05E499542089813F006C8BD0 /* Project object */;
+}
