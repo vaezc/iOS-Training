@@ -17,11 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-
-- (IBAction)pushViewController:(id)sender {
-	TestViewController *testViewController = [[TestViewController alloc] init];
-	[self.navigationController pushViewController:testViewController animated:YES];
+	self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+	
 }
 
 

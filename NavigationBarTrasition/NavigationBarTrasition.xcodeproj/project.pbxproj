@@ -15,6 +15,7 @@
 		055456422092B7B700271D5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 055456412092B7B700271D5D /* main.m */; };
 		0554564A2092B7E200271D5D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 055456492092B7E200271D5D /* SecondViewController.m */; };
 		0554564D2092BEE800271D5D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0554564C2092BEE800271D5D /* TestViewController.m */; };
+		055456952092FB5F00271D5D /* BarStyleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055456942092FB5F00271D5D /* BarStyleTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		055456492092B7E200271D5D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0554564B2092BEE800271D5D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		0554564C2092BEE800271D5D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		055456932092FB5F00271D5D /* BarStyleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarStyleTableViewCell.h; sourceTree = "<group>"; };
+		055456942092FB5F00271D5D /* BarStyleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarStyleTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				055456412092B7B700271D5D /* main.m */,
 				0554564B2092BEE800271D5D /* TestViewController.h */,
 				0554564C2092BEE800271D5D /* TestViewController.m */,
+				055456932092FB5F00271D5D /* BarStyleTableViewCell.h */,
+				055456942092FB5F00271D5D /* BarStyleTableViewCell.m */,
 			);
 			path = NavigationBarTrasition;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0554564A2092B7E200271D5D /* SecondViewController.m in Sources */,
+				055456952092FB5F00271D5D /* BarStyleTableViewCell.m in Sources */,
 				055456372092B7B600271D5D /* ViewController.m in Sources */,
 				055456422092B7B700271D5D /* main.m in Sources */,
 				055456342092B7B600271D5D /* AppDelegate.m in Sources */,
